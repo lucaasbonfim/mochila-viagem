@@ -131,3 +131,20 @@ html {
     font-weight: 400;
 }
 
+@media screen and (max-width: 640px) {
+    .conteudo {
+        display: inline-block;
+        align-content: center;
+        padding: 0;
+    }
+
+    .principal {
+        min-width: 80vw;
+    }
+
+    .lista {
+        margin-top: 2em;
+        width: 100vw;
+    }
+
+}
